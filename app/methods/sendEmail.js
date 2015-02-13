@@ -1,7 +1,4 @@
 module.exports = function(fancy) {
-	console.log('email');
-	return;
-	
 	var credentials = require('../secure/credentials');
 	var sendgrid = require("sendgrid")(credentials.sendgrid.user, credentials.sendgrid.key);
 	var email = new sendgrid.Email();

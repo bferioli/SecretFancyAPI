@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://localhost/secretFancy');
 
 var port = process.env.PORT || 8000;
-
 var routes = require('./app/routes/routes');
-app.use('/api', routes);
 
+app.use('/api', routes);
 app.listen(port);
+
 console.log('Listening on port ' + port);

@@ -1,7 +1,4 @@
 module.exports = function(fancy) {
-	console.log('text');
-	return;
-	
 	var credentials = require('../secure/credentials');
 	var twilio = require('twilio')(credentials.twilio.sid, credentials.twilio.token);
 
