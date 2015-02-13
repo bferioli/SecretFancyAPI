@@ -2,9 +2,24 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var FancySchema = new Schema({
-    first_name: String,
+	delivery: String,
+	first_name: String,
     email: String,
-    message: String
+    phone: String,
+    message: String,
+    user: {
+		email: String,
+		first_name: String,
+		gender: String,
+		id: String,
+		last_name: String,
+		link: String,
+		locale: String,
+		name: String,
+		timezone: Number,
+		updated_time: String,
+		verified: Boolean
+	}
 });
 
 module.exports = mongoose.model('Fancy', FancySchema);
