@@ -4,7 +4,6 @@ module.exports = function(fancy) {
 	var email = new sendgrid.Email();
 
 	email.addTo(fancy.email);
-	email.addToName(fancy.first_name);
 	email.setFrom("donotreply@secretfancy.com");
 	email.setFromName("SecretFancy");
 	email.setSubject("Somebody sent you a message on SecretFancy");
