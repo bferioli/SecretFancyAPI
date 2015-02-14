@@ -4,8 +4,9 @@ var Schema = mongoose.Schema;
 var FancySchema = new Schema({
 	delivery: String,
 	first_name: String,
+	match_name: String,
+	phone: String,
     email: String,
-    phone: String,
     message: String,
     user: {
 		email: String,

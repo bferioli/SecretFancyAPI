@@ -2,7 +2,7 @@ module.exports = function(req, res) {
 	var credentials = require('../secure/credentials');
 	var Fancy = require('../models/fancy');
 	var sendEmail = require('./sendEmail');
-	var sendText = require('./sendEmail');
+	var sendText = require('./sendText');
 
 	Fancy.find({"user.id": req.body.user.id}, function(err, fancies) {
 		if (err)
