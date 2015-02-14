@@ -19,7 +19,7 @@ module.exports = function(req, res) {
 		fancy.first_name = req.body.first_name;
 		fancy.phone = req.body.phone;
 		fancy.email = req.body.email;
-		fancy.message = req.body.message;
+		fancy.message = req.body.message.replace(/\n/g, "<br />");
 		fancy.user = req.body.user;
 
 		fancy.save(function(err, saved) {
