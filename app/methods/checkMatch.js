@@ -40,7 +40,7 @@ module.exports = function(req, res) {
 			params.html += '<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">'
 			params.html += ' <tr>'
 			params.html += '  <td style="padding: 40px 0 20px 0; text-align: center;">'
-			params.html += '   <img src="http://secretfancy.com/images/logo.jpg" alt="Creating Email Magic" width="494" height="95" />'
+			params.html += '   <img src="http://secretfancy.com/images/logo.jpg" alt="SecretFancy" width="494" height="95" />'
 			params.html += '  </td>'
 			params.html += ' </tr>'
 			params.html += ' <tr>'
