@@ -21,6 +21,7 @@ __[Frontend](https://github.com/bferioli/SecretFancy):__
 * [jQuery](https://github.com/jquery/jquery)
 * [Backbone](https://github.com/jashkenas/backbone)
 * [Handlebars](https://github.com/wycats/handlebars.js)
+* [RequireJS](https://github.com/jrburke/requirejs)
 * Facebook Authentication
 
 ------
@@ -29,6 +30,6 @@ __[Frontend](https://github.com/bferioli/SecretFancy):__
 
 I acheived my goal of getting the app built and production-ready in three days, but of course there are still some things I'd like to do:
 
-* Externalize HTML email templates
+* ✓ ~~Externalize HTML email templates~~
 * Change rate limiting from all time to per day
 * Include Linux service script
