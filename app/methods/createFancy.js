@@ -31,7 +31,6 @@ module.exports = function(req, res) {
       else if (saved.delivery === "email")
         sendEmail(saved);
 
-      console.log(saved);
       res.json(saved);
     });
   });
